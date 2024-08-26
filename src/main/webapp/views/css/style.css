@@ -1,0 +1,114 @@
+		body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f8fb;
+            margin: 0;
+            padding: 0;
+        }
+        .sidebar {
+            height: 100vh;
+            width: 240px;
+            background-color: #1a73e8;
+            padding-top: 20px;
+            position: fixed;
+        }
+        .sidebar a {
+            color: #fff;
+            padding: 15px;
+            text-align: left;
+            display: block;
+            font-size: 16px;
+            margin: 5px 0;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            background-color: #0c52bd;
+            border-radius: 4px;
+        }
+        .sidebar a.active {
+            background-color: #0c52bd;
+            font-weight: bold;
+        }
+        .sidebar a i {
+            margin-right: 10px;
+        }
+        .main-content {
+            margin-left: 240px;
+            padding: 20px;
+        }
+        .top-blocks {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .block:nth-child(1) {
+    background-color: #007bff; /* Mantén el color de fondo que quieras */
+    color: #fff; /* Asegúrate de que el texto sea blanco */
+}
+
+.block:nth-child(1) a { 
+    color: inherit; /* Hereda el color blanco del bloque padre */ 
+}
+
+.block:nth-child(1) .icon {
+    color: inherit; /* Hereda el color blanco del bloque padre */ 
+}
+        .block {
+            position: relative;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 23%;
+            text-align: center;
+            color: #fff;
+            overflow: hidden;
+        }
+        .block .icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+        .block h5 {
+            font-size: 18px;
+            margin: 0;
+            font-weight: normal;
+        }
+        .block p {
+            margin: 5px 0 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .block:nth-child(1) {
+            background-color: #007bff;
+        }
+        .block:nth-child(2) {
+            background-color: #17a2b8;
+        }
+        .block:nth-child(3) {
+            background-color: #6f42c1;
+        }
+        .block:nth-child(4) {
+            background-color: #fd7e14;
+        }
+        .block::before {
+            content: '';
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 50%;
+            top: -20px;
+            right: -20px;
+        }
+        .block::after {
+            content: '';
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 50%;
+            bottom: -20px;
+            left: -20px;
+        }
+        div.block>a{
+        	text-decoration: none;
+        }
