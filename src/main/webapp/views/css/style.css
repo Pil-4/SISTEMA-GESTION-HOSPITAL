@@ -1,6 +1,6 @@
-		body {
+        body {
             font-family: 'Arial', sans-serif;
-            background-color: #f4f8fb;
+            background-color: #f1f1f0;
             margin: 0;
             padding: 0;
         }
@@ -41,17 +41,17 @@
             margin-bottom: 20px;
         }
         .block:nth-child(1) {
-    background-color: #007bff; /* Mantén el color de fondo que quieras */
-    color: #fff; /* Asegúrate de que el texto sea blanco */
-}
+		    background-color: #007bff; 
+		    color: #fff; 
+		}
 
-.block:nth-child(1) a { 
-    color: inherit; /* Hereda el color blanco del bloque padre */ 
-}
-
-.block:nth-child(1) .icon {
-    color: inherit; /* Hereda el color blanco del bloque padre */ 
-}
+		.block:nth-child(1) a { 
+		    color: inherit; 
+		}
+		
+		.block:nth-child(1) .icon {
+		    color: inherit; 
+		}
         .block {
             position: relative;
             background-color: #fff;
@@ -112,3 +112,22 @@
         div.block>a{
         	text-decoration: none;
         }
+        a{
+		text-decoration: none;
+		}
+		.circle{
+       	    width: 140px;
+		    height: 140px;
+		    object-fit: cover;
+		    border: 0.35rem solid white;
+       }
+       .especialidad{
+       		    background: #008bff;
+			    color: white;
+			    width: 150px;
+       }
+       .medico-card{
+           border-radius: 20px;
+       }
+        
+       
